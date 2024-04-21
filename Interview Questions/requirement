@@ -1,0 +1,19 @@
+1. App will be listing current movies and the shows.
+2. App allows users to search for the shows.
+3. App will be listing different shows for a movie.
+4. App allows registered users to book tickets for the show.
+5. App allows theaters to add/edit a show.
+
+//  Follow-up questions
+1. Would the show has the support for multi screen or there is just a single screen.
+2. Does it support payment method.
+3. is there any sort of seat selection strategy? or the seats would be automatically selected?
+
+//  Assumptions:
+1. Every theater has single screen.
+2. Every theater has some capacity of seats.
+3. Registered users can book tickets but non-registered users are allowed to search the movies.
+4. Registered users will have the history of their bookings.
+5. Movie can be in two languages: Hindi and English.
+6. Movie can have two genres: Action, Comedy, Horror and Romance.
+7. Let's not consider payment method for now.
