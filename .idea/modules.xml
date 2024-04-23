@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/Interview Questions/Interview Questions.iml" filepath="$PROJECT_DIR$/Interview Questions/Interview Questions.iml" />
       <module fileurl="file://$PROJECT_DIR$/Machine Coding.iml" filepath="$PROJECT_DIR$/Machine Coding.iml" />
       <module fileurl="file://$PROJECT_DIR$/Design Patterns/SOLID/SOLID.iml" filepath="$PROJECT_DIR$/Design Patterns/SOLID/SOLID.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Design Patterns/StrategyDesignPattern/StrategyDesignPattern.iml" filepath="$PROJECT_DIR$/Design Patterns/StrategyDesignPattern/StrategyDesignPattern.iml" />
     </modules>
   </component>
 </project>
