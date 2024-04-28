@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/Design Patterns/ObservableDesignPattern/ObservableDesignPattern.iml" filepath="$PROJECT_DIR$/Design Patterns/ObservableDesignPattern/ObservableDesignPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/Design Patterns/SOLID/SOLID.iml" filepath="$PROJECT_DIR$/Design Patterns/SOLID/SOLID.iml" />
       <module fileurl="file://$PROJECT_DIR$/Design Patterns/StrategyDesignPattern/StrategyDesignPattern.iml" filepath="$PROJECT_DIR$/Design Patterns/StrategyDesignPattern/StrategyDesignPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interview Questions/Tic-Tac-Toe/Tic-Tac-Toe.iml" filepath="$PROJECT_DIR$/Interview Questions/Tic-Tac-Toe/Tic-Tac-Toe.iml" />
     </modules>
   </component>
 </project>
