@@ -3,7 +3,6 @@ import java.util.Deque;
 import java.util.LinkedList;
 import java.util.Scanner;
 
-
 //  1. get first player
 //  2. print the board
 //  3. check the empty space (if empty then proceed ahead or show game tied)
@@ -72,6 +71,7 @@ public class Game {
             }
             players.addLast(player);
 
+            //  6. check if the user is winner (winner logic)
             boolean winner = isWinner(player.getPieceType(), row, column);
             if (winner) {
                 System.out.println("Player " + player.getName() + " won.");

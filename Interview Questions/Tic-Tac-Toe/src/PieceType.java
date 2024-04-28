@@ -4,4 +4,8 @@ public class PieceType {
     public PieceType(Piece piece) {
         this.piece = piece;
     }
+
+    public Piece getPiece() {
+        return piece;
+    }
 }
