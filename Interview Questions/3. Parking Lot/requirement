@@ -1,0 +1,8 @@
+1. Customer looks for a green signal on parking display board to check the availability.
+2. Parking automated system checks for the availability slot and assigns the ticket to the customer.
+3. The ticket contains info such as vehicle number, date, time of arrival and available parking slot number.
+4. PAS opens the welcome barrier and update the parking display board.
+5. Customer parks the ticket at the assigned place.
+6. Customer scans the ticket at the exit where PAS calculates the amount and generates the bill.
+7. Customer makes the payment via cash or card.
+8. PAS opens the exit barrier and update the parking display board.
