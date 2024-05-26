@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Design Patterns/A. SOLID/A. SOLID.iml" filepath="$PROJECT_DIR$/Design Patterns/A. SOLID/A. SOLID.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Design Patterns/B. Strategy Design Pattern/B. Strategy Design Pattern.iml" filepath="$PROJECT_DIR$/Design Patterns/B. Strategy Design Pattern/B. Strategy Design Pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/Interview Questions/2. BookMyShow/BookMyShow.iml" filepath="$PROJECT_DIR$/Interview Questions/2. BookMyShow/BookMyShow.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Design Patterns/DecoratorDesignPattern/DecoratorDesignPattern.iml" filepath="$PROJECT_DIR$/Design Patterns/DecoratorDesignPattern/DecoratorDesignPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Design Patterns/C. Observable Design Pattern/C. Observable Design Pattern.iml" filepath="$PROJECT_DIR$/Design Patterns/C. Observable Design Pattern/C. Observable Design Pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Design Patterns/D. Decorator Design Pattern/D. Decorator Design Pattern.iml" filepath="$PROJECT_DIR$/Design Patterns/D. Decorator Design Pattern/D. Decorator Design Pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/Design Patterns/Design Patterns.iml" filepath="$PROJECT_DIR$/Design Patterns/Design Patterns.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Design Patterns/FactoryDesignPattern/FactoryDesignPattern.iml" filepath="$PROJECT_DIR$/Design Patterns/FactoryDesignPattern/FactoryDesignPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Design Patterns/E. Factory Design Pattern/E. Factory Design Pattern.iml" filepath="$PROJECT_DIR$/Design Patterns/E. Factory Design Pattern/E. Factory Design Pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Design Patterns/F. Singleton Design Patterns/F. Singleton Design Patterns.iml" filepath="$PROJECT_DIR$/Design Patterns/F. Singleton Design Patterns/F. Singleton Design Patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/Interview Questions/Interview Questions.iml" filepath="$PROJECT_DIR$/Interview Questions/Interview Questions.iml" />
       <module fileurl="file://$PROJECT_DIR$/Machine Coding.iml" filepath="$PROJECT_DIR$/Machine Coding.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Design Patterns/ObservableDesignPattern/ObservableDesignPattern.iml" filepath="$PROJECT_DIR$/Design Patterns/ObservableDesignPattern/ObservableDesignPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/Interview Questions/3. Parking Lot/Parking Lot.iml" filepath="$PROJECT_DIR$/Interview Questions/3. Parking Lot/Parking Lot.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Design Patterns/SOLID/SOLID.iml" filepath="$PROJECT_DIR$/Design Patterns/SOLID/SOLID.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Design Patterns/StrategyDesignPattern/StrategyDesignPattern.iml" filepath="$PROJECT_DIR$/Design Patterns/StrategyDesignPattern/StrategyDesignPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/Interview Questions/1. Tic-Tac-Toe/Tic-Tac-Toe.iml" filepath="$PROJECT_DIR$/Interview Questions/1. Tic-Tac-Toe/Tic-Tac-Toe.iml" />
     </modules>
   </component>
