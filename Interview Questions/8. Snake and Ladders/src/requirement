@@ -1,0 +1,11 @@
+Questions:
+1. How many dices? -> 1 (But it should be scalable)
+2. How many snakes and ladders? -> It should be dynamic
+
+Entities:
+Dice
+Snake
+Ladder
+Board
+Players
+Cells
