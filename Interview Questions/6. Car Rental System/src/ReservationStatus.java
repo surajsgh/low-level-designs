@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public enum ReservationStatus {
+public enum ReservationStatus {
+    PENDING,
+    CANCELED,
+    CLOSED
 }

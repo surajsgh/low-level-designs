@@ -1,0 +1,12 @@
+1. A user searches for the location
+2. Then it filters a specific vehicle.
+3. The user reserves it and then a bill gets generated then user pays the bill.
+4. The user submits the vehicle after the use.
+
+Possible objects:
+User
+Location
+Store
+Vehicle
+Bill
+Payment

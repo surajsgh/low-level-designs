@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class Status {
+public enum Status {
+    AVAILABLE,
+    OCCUPIED
 }

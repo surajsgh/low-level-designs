@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public class Payment {
+public class Payment {
+    Bill bill;
+
+    public Payment(Bill bill) {
+        this.bill = bill;
+    }
 }
