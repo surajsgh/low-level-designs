@@ -1,0 +1,12 @@
+Questions:
+1. How many lifts should we consider?
+2. Lifts functional algorithms (Minimum Seek time, odd-even)
+
+Objects:
+Building
+Floors
+ExternalButton
+ElevatorCar (Display, currentFloor, Direction, Status, InternalButton, Doors)
+Display
+InternalButton
+Doors

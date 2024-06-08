@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public enum Status {
+public enum Status {
+    MOVING,
+    STILL
 }
