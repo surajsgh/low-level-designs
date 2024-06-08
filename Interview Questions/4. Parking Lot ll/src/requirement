@@ -1,0 +1,14 @@
+* Cross questions:
+1.  How many entrances should be there? (1 Entry/1 Exit, but it should be scalable.)
+2.  Different sort of spots support? (2 wheeler and 4 wheeler)
+3.  Parking spot should be nearest to the entry gate.
+4.  Does it support multiple floors? (No for the simplicity sake)
+5.  Should cover hourly based charge/min based charge
+
+* Objects:
+Vehicle (Vehicle No, VehicleType)
+VehicleType (Enum -> 2 wheeler, 4 wheeler)
+Ticket (Entry time, price, exit time, vehicle)
+EntranceGate(findParkingSpace(), bookSpot(), generateTicket())
+ParkingSpot(id, isEmpty, price, type, vehicle)
+ExitGate(calculateCost(), makePayment(), updateParkingSpace())
