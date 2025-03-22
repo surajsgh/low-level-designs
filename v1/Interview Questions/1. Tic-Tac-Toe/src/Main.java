@@ -9,8 +9,6 @@
 //  6. check if the user is winner (winner logic)
 //  7. repeat the steps again
 
-import java.util.ArrayList;
-
 public class Main {
     public static void main(String[] args) {
         Game game = new Game();
