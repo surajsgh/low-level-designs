@@ -1,3 +1,5 @@
+import javax.swing.plaf.synth.SynthTextAreaUI;
+
 public class Main {
     public static void main(String[] args) {
         //  SINGLE THREADED ENV
@@ -13,15 +15,22 @@ public class Main {
         */
 
         //  MULTI-THREADED ENV
+        /*
         Thread threadFoo = new Thread(new ThreadFoo());
         Thread threadBar = new Thread(new ThreadBar());
         threadFoo.start();
         threadBar.start();
+        */
 
         //  THREAD-SAFE SINGLETON
-        ThreadSafeSingleton first = ThreadSafeSingleton.getInstance();
-        ThreadSafeSingleton second = ThreadSafeSingleton.getInstance();
+        ThreadSafeSingleton first = ThreadSafeSingleton.getInstance("first");
+        ThreadSafeSingleton second = ThreadSafeSingleton.getInstance("second");
         System.out.println(first==second);
+
+        Thread threadSafeFoo = new Thread(new ThreadSafeFoo());
+        Thread threadSafeBar = new Thread(new ThreadSafeBar());
+        threadSafeBar.start();
+        threadSafeFoo.start();
     }
 
     static class ThreadFoo implements Runnable {
@@ -36,6 +45,22 @@ public class Main {
         @Override
         public void run() {
             Singleton bar = Singleton.getInstance("Bar");
+            System.out.println(bar.value);
+        }
+    }
+
+    static class ThreadSafeFoo implements Runnable {
+        @Override
+        public void run() {
+            ThreadSafeSingleton foo = ThreadSafeSingleton.getInstance("Foo");
+            System.out.println(foo.value);
+        }
+    }
+
+    static class ThreadSafeBar implements Runnable {
+        @Override
+        public void run() {
+            ThreadSafeSingleton bar = ThreadSafeSingleton.getInstance("Bar");
             System.out.println(bar.value);
         }
     }
