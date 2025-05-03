@@ -20,7 +20,12 @@ public class Main {
         Thread threadBar = new Thread(new ThreadBar());
         threadFoo.start();
         threadBar.start();
+
+        OUTPUT:
+        Bar
+        Foo
         */
+
 
         //  THREAD-SAFE SINGLETON
         ThreadSafeSingleton first = ThreadSafeSingleton.getInstance("first");
@@ -31,6 +36,12 @@ public class Main {
         Thread threadSafeBar = new Thread(new ThreadSafeBar());
         threadSafeBar.start();
         threadSafeFoo.start();
+
+        /*
+        true
+        first
+        first
+        */
     }
 
     static class ThreadFoo implements Runnable {
