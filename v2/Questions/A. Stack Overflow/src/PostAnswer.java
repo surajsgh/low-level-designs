@@ -5,5 +5,6 @@ public class PostAnswer implements PostStrategy{
             throw new RuntimeException("Different Post");
         }
         user.getAnswers().add((Answer) answer);
+        ReputationService.postUpdateHandler(user, "Answer");
     }
 }

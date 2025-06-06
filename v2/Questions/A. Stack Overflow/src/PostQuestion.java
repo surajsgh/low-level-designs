@@ -5,5 +5,6 @@ public class PostQuestion implements PostStrategy{
             throw new RuntimeException("Different Post!");
         }
         user.getQuestions().add((Question) question);
+        ReputationService.postUpdateHandler(user, "Question");
     }
 }

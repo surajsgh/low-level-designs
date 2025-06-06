@@ -5,5 +5,6 @@ public class PostComment implements PostStrategy{
             throw new RuntimeException("Different Post");
         }
         user.getComments().add((Comment) comment);
+        ReputationService.postUpdateHandler(user, "Comment");
     }
 }

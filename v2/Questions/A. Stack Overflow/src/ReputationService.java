@@ -22,4 +22,16 @@ public class ReputationService {
             post.getUser().setReputation(post.getUser().getReputation() + ReputationHandler.COMMENT_DOWNVOTE);
         }
     }
+
+    public static void postUpdateHandler(User user, String post) {
+       if (post.equals("Question")) {
+           user.setReputation(user.getReputation() + ReputationHandler.POST_QUESTION);
+       }
+       else if (post.equals("Comment")) {
+           user.setReputation(user.getReputation() + ReputationHandler.POST_COMMENT);
+       }
+       else {
+           user.setReputation(user.getReputation() + ReputationHandler.POST_ANSWER);
+       }
+    }
 }
