@@ -11,11 +11,11 @@ public class Level {
         this.parkingSpots = parkingSpots;
     }
 
-    public int totalAvailableSpots() {
+    public synchronized int totalAvailableSpots() {
         return this.parkingSpots.stream().filter(parkingSpot -> !parkingSpot.isOccupied()).toList().size();
     }
 
-    public ParkingSpot park(Vehicle vehicle) {
+    public synchronized ParkingSpot park(Vehicle vehicle) {
         for (ParkingSpot parkingSpot: parkingSpots) {
             if (parkingSpot.isAvailable(vehicle)) {
                 parkingSpot.assign(vehicle);
@@ -26,7 +26,7 @@ public class Level {
         return null;
     }
 
-    public void release(ParkingSpot allottedParkingSpot) {
+    public synchronized void release(ParkingSpot allottedParkingSpot) {
         for (ParkingSpot parkingSpot: parkingSpots) {
             if (parkingSpot == allottedParkingSpot) {
                 parkingSpot.release();
