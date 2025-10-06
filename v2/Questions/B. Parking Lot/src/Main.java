@@ -10,11 +10,9 @@ public class Main {
                 new ParkingSpot(false, null, VehicleType.CAR),
                 new ParkingSpot(false, null, VehicleType.TRUCK)
         );
+
         Level level1 = new Level(parkingSpots1);
         Level level2 = new Level(parkingSpots2);
-
-
-
 
         ParkingLot parkingLot = new ParkingLot(List.of(level1, level2));
         System.out.println("Total free spots at all levels: " + parkingLot.totalAvailableFreeSpots());
