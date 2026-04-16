@@ -14,17 +14,17 @@ public class ParkingSpot {
         this.spotVehicleType = spotVehicleType;
     }
 
-    public synchronized boolean isAvailable(Vehicle entryVehicle) {
+    public boolean isAvailable(Vehicle entryVehicle) {
         return !this.isOccupied && vehicle==null && this.spotVehicleType==entryVehicle.getVehicleType();
     }
 
-    public synchronized void assign(Vehicle entryVehicle) {
+    public void assign(Vehicle entryVehicle) {
         if (!isAvailable(entryVehicle)) System.out.println("No space available");
         this.isOccupied = true;
         this.vehicle = entryVehicle;
     }
 
-    public synchronized void release() {
+    public void release() {
         this.isOccupied = false;
         this.vehicle = null;
     }
