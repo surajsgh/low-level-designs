@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Map;
 
 public class ChangeService {
-    private List<Integer> denominations = List.of(1, 2, 5, 10, 20, 50, 100);
+    private List<Integer> denominations = List.of(100, 50, 20, 10, 5, 2, 1);
 
     public List<Integer> getDenominations() {
         return denominations;
