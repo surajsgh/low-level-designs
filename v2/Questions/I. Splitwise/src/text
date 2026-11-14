@@ -1,0 +1,29 @@
+hey Suraj !!
+
+Chose IDE of your choice.
+Whiteboard link : https://webwhiteboard.com/board/uXjVEOpobv8=/?boardAccessToken=ZFH55G4WhJR9JA64EqPyf4UDdMKIMlWS
+
+Problem :
+Build the core engine for a bill-splitting app (like Splitwise). Friends add shared expenses — a dinner, a trip, groceries — and the app tracks who owes whom how much,
+and lets them settle up.
+
+Implement the domain engine only. Not a UI, not a REST API, not a database.
+
+high level Functional Requirements :
+1. A new user can register -- Done
+
+2. Any registered user can add expense and the list of users sharing the expense. Adding an expense must immediately update everyone's balances. -- Done
+
+3. At any point, show each user's net balance (positive = is owed money, negative = owes money) and the pairwise "who owes whom" view for a set of users:
+for each pair (A, B), the net amount A owes B.
+- User can see its own overall net balance. (+ve/-ve amount) -- Done
+- User can see only pending amount history.  -- Done
+
+4. A user can pay back another user directly. Record the payment and update balances.
+
+// Entities
+User, Expense, Payment
+
+Nice to have:
+1. Show expense history for a user.
+2. Delete / edit an expense.
